@@ -7,8 +7,8 @@ import styles from "./App.module.css";
 import "./global.css";
 
 // author: { avatar_url: "". name: "", role: "" }
-// publishedAt: Date
 // content: String
+// publishedAt: Date
 
 const posts = [
   {
@@ -19,22 +19,22 @@ const posts = [
       role: "QA Engineer",
     },
     content: [
-      { type: "paragraph", content: "Fala galera 👋" },
+      { type: "paragraph", content: "Eai pessoal!" },
       {
         type: "paragraph",
         content:
-          "Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
+          "Acabei de subir mais um projeto no meu portfólio. É um projeto que fiz no evento da NLW. O nome do projeto é DoctorCare 🚀",
       },
       { type: "link", content: "jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2022-09-16 15:41:30"),
+    publishedAt: new Date("2023-02-24 15:41:30"),
   },
   {
     id: 2,
     author: {
       avatarUrl: "https://github.com/diego3g.png",
       name: "Diego Fernandes",
-      role: "Cto @Rocketseat",
+      role: "CTO @Rocketseat",
     },
     content: [
       { type: "paragraph", content: "Fala galera 👋" },
@@ -45,7 +45,7 @@ const posts = [
       },
       { type: "link", content: "jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2022-08-16 15:20:30"),
+    publishedAt: new Date("2023-02-16 15:20:30"),
   },
 ];
 
